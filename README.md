@@ -185,5 +185,5 @@ and will enforce Tailscale authentication and map user values to HTTP headers.
 For example:
 
 ```
-xcaddy tailscale-proxy --from "tailscale/myhost:80" --to localhost:8000
+caddy tailscale-proxy --from "tailscale/myhost:80" --to localhost:8000
 ```
