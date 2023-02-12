@@ -1,7 +1,5 @@
 # Tailscale Caddy plugin
 
-[![status: experimental](https://img.shields.io/badge/status-experimental-blue)](https://tailscale.com/kb/1167/release-stages/#experimental)
-
 The Tailscale Caddy plugin brings Tailscale integration to the Caddy web server.
 It's really multiple plugins in one, providing:
 
@@ -20,7 +18,7 @@ Use [xcaddy](https://github.com/caddyserver/xcaddy) to build Caddy with the
 Tailscale plugin included.
 
 ```
-xcaddy build master --with github.com/tailscale/caddy-tailscale
+xcaddy build master --with github.com/zorck97/caddy-tailscale
 ```
 
 ## Caddy network listener
